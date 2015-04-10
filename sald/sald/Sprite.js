@@ -10,7 +10,7 @@
 
 //arg1 is animation name eg. 'walk'
 //arg2 is data for animation - x,y,width,height,no of frames
-//arg3 is data for sprite - 
+//arg3 is data for sprite - posX, posY, angle, scaleX, scaleY, anchorX, anchorY
 var Sprite = function (arg1,arg2,arg3) {
   var data;
   var params;
