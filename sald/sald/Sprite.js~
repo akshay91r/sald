@@ -195,16 +195,14 @@ Sprite.prototype.draw = function (anim) {
       Math.round(this.params.y*drawData.height - this.params.anchorY*drawData.height)/drawData.height
     );
 
-     /*window.sald.ctx.drawImage(drawData.img,  
+     window.sald.ctx.drawImage(drawData.img,  
             0, 0,
             1, 1);
-    */
 
-    //image, xToStartClipping, yToStartClipping, clippedWidth, clippedHeight, xPosCanvas, yPosCanvas, imageWidth, imageHeight
-    window.sald.ctx.drawImage(drawData.img, drawData.x, drawData.y, 
+    /*window.sald.ctx.drawImage(drawData.img, drawData.x, drawData.y, 
             drawData.width, drawData.height, 
             0, 0,
-            this.params.scaleX, this.params.scaleY);
+            this.params.scaleX, this.params.scaleY);*/
     window.sald.ctx.restore();
   }
 }
